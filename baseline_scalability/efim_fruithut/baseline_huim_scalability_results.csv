@@ -1,0 +1,6 @@
+experiment,algorithm,dataset,file,algorithm_file,threshold_index,size_fraction,max_transactions,min_utility,central_percentage,threshold_mode,runtime_ms,baseline_memory_mb,peak_memory_mb,delta_memory_mb,algorithm_internal_memory_mb,pattern_count,output_pattern_lines,candidate_count,case1_count,case2_count,read_transactions,read_total_utility,read_entries,read_unique_items,status,error,stderr_tail
+scalability,efim,fruithut,/work/datasets/fruithut.txt,/work/efim.py,,0.20,36394,52000,0.02,absolute,11046.603,16.695,37.332,20.637,36.1015625,875,875,2000,,,36394,40631486,106371,792,ok,,
+scalability,efim,fruithut,/work/datasets/fruithut.txt,/work/efim.py,,0.40,72788,52000,0.02,absolute,37912.274,16.602,57.359,40.758,54.1875,2708,2708,5781,,,72788,86120775,224509,1021,ok,,
+scalability,efim,fruithut,/work/datasets/fruithut.txt,/work/efim.py,,0.60,109182,52000,0.02,absolute,81268.404,16.605,78.246,61.641,73.65625,7138,7138,14798,,,109182,142112713,359717,1163,ok,,
+scalability,efim,fruithut,/work/datasets/fruithut.txt,/work/efim.py,,0.80,145576,52000,0.02,absolute,138304.505,16.609,100.027,83.418,93.58984375,14819,14819,29611,,,145576,200879814,503399,1230,ok,,
+scalability,efim,fruithut,/work/datasets/fruithut.txt,/work/efim.py,,1.00,181970,52000,0.02,absolute,197532.888,16.699,122.082,105.383,113.04296875,26681,26681,50766,,,181970,261871526,652773,1265,ok,,

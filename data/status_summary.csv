@@ -1,0 +1,9 @@
+algorithm,correct,timeout,skipped,excluded,incorrect,pending,total
+PA-HUIM,120,0,0,0,0,0,120
+efim,120,0,0,0,0,0,120
+fhm,108,2,10,0,0,0,120
+hui_miner,117,1,2,0,0,0,120
+ulb_miner,120,0,0,0,0,0,120
+upgrowthplus,93,5,17,5,0,0,120
+d2hup,120,0,0,0,0,0,120
+TOTAL,798,8,29,5,0,0,840

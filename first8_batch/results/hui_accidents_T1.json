@@ -1,0 +1,31 @@
+{
+  "case_id": "hui_accidents_T1",
+  "algorithm": "hui_miner",
+  "dataset": "accidents",
+  "min_utility": 21000000,
+  "max_transactions": null,
+  "started_utc": "2026-10-01T11:34:06.034645+00:00",
+  "finished_utc": "2026-10-01T19:01:13.695393+00:00",
+  "result": {
+    "algorithm": "hui_miner",
+    "dataset": "accidents",
+    "file": "/work/datasets/accidents.txt",
+    "algorithm_file": "/work/hui_miner.py",
+    "min_utility": 21000000,
+    "max_transactions": null,
+    "status": "ok",
+    "error": "",
+    "runtime_ms": 26822071.3,
+    "baseline_memory_mb": 16.535,
+    "peak_memory_mb": 1683.375,
+    "delta_memory_mb": 1666.84,
+    "output_pattern_lines": 3383,
+    "pattern_count": 3383,
+    "candidate_count": 40037,
+    "algorithm_internal_memory_mb": 1683.890625,
+    "read_transactions": 340183,
+    "read_total_utility": 196141636,
+    "read_entries": 11500870,
+    "read_unique_items": 468
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "up_accidents_80",
+  "algorithm": "upgrowthplus",
+  "dataset": "accidents",
+  "min_utility": 24000000,
+  "max_transactions": 272146,
+  "result": {
+    "algorithm": "upgrowthplus",
+    "dataset": "accidents",
+    "file": "/work/datasets/accidents.txt",
+    "algorithm_file": "/work/up_growthplus.py",
+    "min_utility": 24000000,
+    "max_transactions": 272146,
+    "status": "ok",
+    "error": "",
+    "runtime_ms": 85319836.742,
+    "baseline_memory_mb": 16.699,
+    "peak_memory_mb": 600.414,
+    "delta_memory_mb": 583.715,
+    "output_pattern_lines": 7,
+    "pattern_count": 7,
+    "candidate_count": 154932,
+    "algorithm_internal_memory_mb": 600.4140625,
+    "read_transactions": 272146,
+    "read_total_utility": 156728798,
+    "read_entries": 9190041,
+    "read_unique_items": 449
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "case_id": "hui_ecommerce_T2",
+  "algorithm": "hui_miner",
+  "dataset": "ecommerce",
+  "min_utility": 170000,
+  "max_transactions": null,
+  "result": {
+    "status": "timeout",
+    "timeout_seconds": 129600
+  }
+}

@@ -1,0 +1,11 @@
+experiment,algorithm,dataset,file,algorithm_file,threshold_index,size_fraction,max_transactions,min_utility,central_percentage,threshold_mode,runtime_ms,baseline_memory_mb,peak_memory_mb,delta_memory_mb,algorithm_internal_memory_mb,pattern_count,output_pattern_lines,candidate_count,case1_count,case2_count,read_transactions,read_total_utility,read_entries,read_unique_items,status,error,stderr_tail
+threshold,hui_miner,retail,/work/datasets/retail.txt,/work/hui_miner.py,10,,,8900,0.02,absolute,1168726.288,16.438,85.621,69.184,85.62109375,1119,1119,11033369,,,88162,14910915,908576,16470,ok,,
+threshold,hui_miner,retail,/work/datasets/retail.txt,/work/hui_miner.py,9,,,7700,0.02,absolute,1275127.908,16.586,86.953,70.367,86.953125,1448,1448,13308953,,,88162,14910915,908576,16470,ok,,
+threshold,hui_miner,retail,/work/datasets/retail.txt,/work/hui_miner.py,8,,,6900,0.02,absolute,1354104.518,16.586,87.855,71.27,87.85546875,1772,1772,15278773,,,88162,14910915,908576,16470,ok,,
+threshold,hui_miner,retail,/work/datasets/retail.txt,/work/hui_miner.py,7,,,6100,0.02,absolute,1440932.592,16.543,88.531,71.988,88.53125,2197,2197,17752244,,,88162,14910915,908576,16470,ok,,
+threshold,hui_miner,retail,/work/datasets/retail.txt,/work/hui_miner.py,6,,,5300,0.02,absolute,1526008.012,16.535,89.355,72.82,89.35546875,2781,2781,20919809,,,88162,14910915,908576,16470,ok,,
+threshold,hui_miner,retail,/work/datasets/retail.txt,/work/hui_miner.py,5,,,4500,0.02,absolute,1613839.683,16.605,90.07,73.465,90.0703125,3728,3728,24481480,,,88162,14910915,908576,16470,ok,,
+threshold,hui_miner,retail,/work/datasets/retail.txt,/work/hui_miner.py,4,,,3700,0.02,absolute,1710335.019,16.73,91.004,74.273,91.00390625,5191,5191,29832278,,,88162,14910915,908576,16470,ok,,
+threshold,hui_miner,retail,/work/datasets/retail.txt,/work/hui_miner.py,3,,,3000,0.02,absolute,1800321.989,16.539,91.449,74.91,91.44921875,7314,7314,36652815,,,88162,14910915,908576,16470,ok,,
+threshold,hui_miner,retail,/work/datasets/retail.txt,/work/hui_miner.py,2,,,2200,0.02,absolute,1945543.458,16.641,93.191,76.551,93.19140625,12103,12103,52339785,,,88162,14910915,908576,16470,ok,,
+threshold,hui_miner,retail,/work/datasets/retail.txt,/work/hui_miner.py,1,,,1500,0.02,absolute,2189244.589,16.727,95.262,78.535,95.58203125,22268,22268,113324096,,,88162,14910915,908576,16470,ok,,

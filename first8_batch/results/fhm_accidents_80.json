@@ -1,0 +1,17 @@
+{
+  "case_id": "fhm_accidents_80",
+  "algorithm": "fhm",
+  "dataset": "accidents",
+  "min_utility": 24000000,
+  "max_transactions": 272146,
+  "started_utc": "2026-10-01T11:34:06.034471+00:00",
+  "finished_utc": "2026-10-02T23:34:06.356136+00:00",
+  "result": {
+    "algorithm": "fhm",
+    "dataset": "accidents",
+    "min_utility": 24000000,
+    "max_transactions": 272146,
+    "status": "timeout",
+    "error": "Timeout after 129600 seconds"
+  }
+}

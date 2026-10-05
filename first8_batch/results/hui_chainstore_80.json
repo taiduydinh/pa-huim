@@ -1,0 +1,31 @@
+{
+  "case_id": "hui_chainstore_80",
+  "algorithm": "hui_miner",
+  "dataset": "chainstore",
+  "min_utility": 130000,
+  "max_transactions": 890359,
+  "started_utc": "2026-10-01T11:34:06.034101+00:00",
+  "finished_utc": "2026-10-01T21:42:21.259758+00:00",
+  "result": {
+    "algorithm": "hui_miner",
+    "dataset": "chainstore",
+    "file": "/work/datasets/chainstore.txt",
+    "algorithm_file": "/work/hui_miner.py",
+    "min_utility": 130000,
+    "max_transactions": 890359,
+    "status": "ok",
+    "error": "",
+    "runtime_ms": 36483535.161,
+    "baseline_memory_mb": 16.914,
+    "peak_memory_mb": 753.312,
+    "delta_memory_mb": 736.398,
+    "output_pattern_lines": 8952,
+    "pattern_count": 8952,
+    "candidate_count": 274443521,
+    "algorithm_internal_memory_mb": 753.3125,
+    "read_transactions": 890359,
+    "read_total_utility": 2120864253,
+    "read_entries": 6503144,
+    "read_unique_items": 45099
+  }
+}

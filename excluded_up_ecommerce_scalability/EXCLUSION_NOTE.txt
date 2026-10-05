@@ -1,0 +1,22 @@
+Algorithm: UP-Growth+
+Dataset: Ecommerce
+Experiment: Scalability
+
+Excluded fractions:
+20%, 40%, 60%, 80%, 100%
+
+Observed behavior:
+- 20% was manually stopped after the decision to exclude this series.
+- 40% terminated with return code -9 (SIGKILL).
+- 60% terminated without producing a result JSON during severe memory pressure.
+- 80% terminated with return code -9 (SIGKILL).
+- 100% is not reported because the complete algorithm-dataset scalability series is excluded.
+
+Reason:
+UP-Growth+ Ecommerce scalability caused excessive memory pressure under
+the available experimental environment. These cases are therefore
+excluded from the scalability comparison.
+
+These cases are NOT classified as correctness failures or 36-hour timeouts.
+
+Date: 2026-10-04T00:42:57+00:00

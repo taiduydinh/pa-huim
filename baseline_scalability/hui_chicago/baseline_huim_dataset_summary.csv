@@ -1,0 +1,2 @@
+dataset,file,transaction_count,total_utility,entry_count,unique_item_count,central_percentage,central_min_utility
+chicago_crimes,chicago_crimes.txt,2662309,7941285,4781456,35,0.2,16000

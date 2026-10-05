@@ -1,0 +1,2 @@
+dataset,file,transaction_count,total_utility,entry_count,unique_item_count,central_percentage,central_min_utility
+retail,retail.txt,88162,14910915,908576,16470,0.02,3700

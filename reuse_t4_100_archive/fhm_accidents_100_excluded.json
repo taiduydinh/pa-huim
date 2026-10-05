@@ -1,0 +1,13 @@
+{
+  "case_id": "fhm_accidents_100",
+  "algorithm": "fhm",
+  "dataset": "accidents",
+  "min_utility": 24000000,
+  "max_transactions": 340183,
+  "result": {
+    "status": "error",
+    "returncode": -15,
+    "stdout": "",
+    "stderr": ""
+  }
+}

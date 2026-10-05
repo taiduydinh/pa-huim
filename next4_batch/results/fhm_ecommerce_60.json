@@ -1,0 +1,29 @@
+{
+  "case_id": "fhm_ecommerce_60",
+  "algorithm": "fhm",
+  "dataset": "ecommerce",
+  "min_utility": 180000,
+  "max_transactions": 8985,
+  "result": {
+    "algorithm": "fhm",
+    "dataset": "ecommerce",
+    "file": "/work/datasets/ecommerce.txt",
+    "algorithm_file": "/work/fhm.py",
+    "min_utility": 180000,
+    "max_transactions": 8985,
+    "status": "ok",
+    "error": "",
+    "runtime_ms": 62836949.706,
+    "baseline_memory_mb": 16.535,
+    "peak_memory_mb": 66.191,
+    "delta_memory_mb": 49.656,
+    "output_pattern_lines": 1300521063,
+    "pattern_count": 1300521063,
+    "candidate_count": 1831548709,
+    "algorithm_internal_memory_mb": 66.19140625,
+    "read_transactions": 8985,
+    "read_total_utility": 284796399,
+    "read_entries": 103638,
+    "read_unique_items": 3146
+  }
+}

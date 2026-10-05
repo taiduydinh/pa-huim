@@ -1,0 +1,8 @@
+experiment,algorithm,dataset,file,algorithm_file,threshold_index,size_fraction,max_transactions,min_utility,central_percentage,threshold_mode,runtime_ms,baseline_memory_mb,peak_memory_mb,delta_memory_mb,algorithm_internal_memory_mb,pattern_count,output_pattern_lines,candidate_count,case1_count,case2_count,read_transactions,read_total_utility,read_entries,read_unique_items,status,error,stderr_tail
+scalability,fhm,foodmart,/work/datasets/foodmart.txt,/work/fhm.py,,0.20,828,7000,0.1,absolute,101.308,16.727,18.453,1.727,18.38671875,24,24,227,,,828,2379808,3770,1414,ok,,
+scalability,fhm,foodmart,/work/datasets/foodmart.txt,/work/fhm.py,,0.40,1656,7000,0.1,absolute,287.616,16.773,20.305,3.531,20.23828125,420,420,2762,,,1656,4740690,7278,1545,ok,,
+scalability,fhm,foodmart,/work/datasets/foodmart.txt,/work/fhm.py,,0.60,2485,7000,0.1,absolute,406.68,16.777,21.598,4.82,21.53125,674,674,3486,,,2485,7162418,10978,1558,ok,,
+scalability,fhm,foodmart,/work/datasets/foodmart.txt,/work/fhm.py,,0.80,3313,7000,0.1,absolute,548.83,16.727,23.027,6.301,23.02734375,1639,1639,8312,,,3313,9612721,14663,1559,ok,,
+scalability,fhm,foodmart,/work/datasets/foodmart.txt,/work/fhm.py,,1.00,4141,7000,0.1,absolute,604.824,16.648,23.98,7.332,23.98046875,1903,1903,9239,,,4141,12011023,18319,1559,ok,,
+scalability,fhm,ecommerce,/work/datasets/ecommerce.txt,/work/fhm.py,,0.20,2995,180000,0.03,absolute,2858490.962,16.531,33.512,16.98,33.51171875,35646831,35646831,94709945,,,2995,89491229,33810,2474,ok,,
+scalability,fhm,ecommerce,/work/datasets/ecommerce.txt,/work/fhm.py,,0.40,5990,180000,0.03,absolute,20729538.776,16.723,50.414,33.691,50.41015625,369792026,369792026,575264881,,,5990,186130345,68405,2880,ok,,

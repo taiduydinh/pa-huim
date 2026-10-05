@@ -1,0 +1,5 @@
+UP-Growth+ Ecommerce scalability 60% was manually interrupted.
+Reason: memory pressure during speculative execution.
+The run must NOT be classified as timeout or completed.
+It remains pending and may be rerun later if preceding scalability points are admissible.
+Date: 2026-10-03T23:36:08+00:00

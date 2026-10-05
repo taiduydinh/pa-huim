@@ -1,0 +1,2 @@
+dataset,file,transaction_count,total_utility,entry_count,unique_item_count,central_percentage,central_min_utility
+ecommerce,ecommerce.txt,14975,497013754,174354,3468,0.03,180000

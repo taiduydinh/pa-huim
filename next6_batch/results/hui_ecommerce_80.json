@@ -1,0 +1,29 @@
+{
+  "case_id": "hui_ecommerce_80",
+  "algorithm": "hui_miner",
+  "dataset": "ecommerce",
+  "min_utility": 180000,
+  "max_transactions": 11980,
+  "result": {
+    "algorithm": "hui_miner",
+    "dataset": "ecommerce",
+    "file": "/work/datasets/ecommerce.txt",
+    "algorithm_file": "/work/hui_miner.py",
+    "min_utility": 180000,
+    "max_transactions": 11980,
+    "status": "ok",
+    "error": "",
+    "runtime_ms": 94477537.413,
+    "baseline_memory_mb": 16.547,
+    "peak_memory_mb": 40.402,
+    "delta_memory_mb": 23.855,
+    "output_pattern_lines": 1470619864,
+    "pattern_count": 1470619864,
+    "candidate_count": 31736743746,
+    "algorithm_internal_memory_mb": 40.40234375,
+    "read_transactions": 11980,
+    "read_total_utility": 398826273,
+    "read_entries": 139996,
+    "read_unique_items": 3400
+  }
+}

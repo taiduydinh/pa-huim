@@ -1,0 +1,31 @@
+{
+  "case_id": "up_chainstore_T4",
+  "algorithm": "upgrowthplus",
+  "dataset": "chainstore",
+  "min_utility": 130000,
+  "max_transactions": null,
+  "started_utc": "2026-10-01T11:34:06.026364+00:00",
+  "finished_utc": "2026-10-01T23:18:21.467961+00:00",
+  "result": {
+    "algorithm": "upgrowthplus",
+    "dataset": "chainstore",
+    "file": "/work/datasets/chainstore.txt",
+    "algorithm_file": "/work/up_growthplus.py",
+    "min_utility": 130000,
+    "max_transactions": null,
+    "status": "ok",
+    "error": "",
+    "runtime_ms": 42242298.477,
+    "baseline_memory_mb": 16.77,
+    "peak_memory_mb": 2182.812,
+    "delta_memory_mb": 2166.043,
+    "output_pattern_lines": 12436,
+    "pattern_count": 12436,
+    "candidate_count": 61351,
+    "algorithm_internal_memory_mb": 2182.41015625,
+    "read_transactions": 1112949,
+    "read_total_utility": 2609973588,
+    "read_entries": 8042879,
+    "read_unique_items": 46086
+  }
+}

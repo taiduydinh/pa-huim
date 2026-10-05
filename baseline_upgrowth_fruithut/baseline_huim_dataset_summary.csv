@@ -1,0 +1,2 @@
+dataset,file,transaction_count,total_utility,entry_count,unique_item_count,central_percentage,central_min_utility
+fruithut,fruithut.txt,181970,261871526,652773,1265,0.02,52000

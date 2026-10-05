@@ -1,0 +1,11 @@
+experiment,algorithm,dataset,file,algorithm_file,threshold_index,size_fraction,max_transactions,min_utility,central_percentage,threshold_mode,runtime_ms,baseline_memory_mb,peak_memory_mb,delta_memory_mb,algorithm_internal_memory_mb,pattern_count,output_pattern_lines,candidate_count,case1_count,case2_count,read_transactions,read_total_utility,read_entries,read_unique_items,status,error,stderr_tail
+scalability,fhm,kosarak,/work/datasets/kosarak.txt,/work/fhm.py,,0.20,198000,2750000,0.02,absolute,4719.3,17.289,94.945,77.656,94.921875,1,1,4,,,198000,27985345,1592345,28708,ok,,
+scalability,fhm,kosarak,/work/datasets/kosarak.txt,/work/fhm.py,,0.40,396001,2750000,0.02,absolute,27429.212,17.359,234.242,216.883,235.05078125,5,5,49,,,396001,56600228,3220244,33988,ok,,
+scalability,fhm,kosarak,/work/datasets/kosarak.txt,/work/fhm.py,,0.60,594001,2750000,0.02,absolute,126830.172,17.168,449.98,432.812,450.23828125,10,10,316,,,594001,84633413,4814893,36960,ok,,
+scalability,fhm,kosarak,/work/datasets/kosarak.txt,/work/fhm.py,,0.80,792002,2750000,0.02,absolute,664525.036,17.527,815.605,798.078,815.60546875,18,18,2897,,,792002,112970749,6426945,39483,ok,,
+scalability,fhm,kosarak,/work/datasets/kosarak.txt,/work/fhm.py,,1.00,990002,2750000,0.02,absolute,1829553.008,17.594,1205.973,1188.379,1205.97265625,22,22,15737,,,990002,140925416,8019015,41270,ok,,
+scalability,fhm,chicago_crimes,/work/datasets/chicago_crimes.txt,/work/fhm.py,,0.20,532462,16000,0.2,absolute,40256.137,16.902,188.766,171.863,188.765625,206,206,569,,,532462,1459696,1017859,31,ok,,
+scalability,fhm,chicago_crimes,/work/datasets/chicago_crimes.txt,/work/fhm.py,,0.40,1064924,16000,0.2,absolute,106255.449,17.078,359.691,342.613,359.69140625,540,540,1301,,,1064924,3321471,2020981,31,ok,,
+scalability,fhm,chicago_crimes,/work/datasets/chicago_crimes.txt,/work/fhm.py,,0.60,1597385,16000,0.2,absolute,167846.686,17.074,524.422,507.348,524.421875,865,865,1953,,,1597385,5377822,3000846,31,ok,,
+scalability,fhm,chicago_crimes,/work/datasets/chicago_crimes.txt,/work/fhm.py,,0.80,2129847,16000,0.2,absolute,232561.819,16.91,677.012,660.102,677.01171875,983,983,2189,,,2129847,6895679,3926721,35,ok,,
+scalability,fhm,chicago_crimes,/work/datasets/chicago_crimes.txt,/work/fhm.py,,1.00,2662309,16000,0.2,absolute,285267.95,17.004,815.562,798.559,815.5625,1043,1043,2331,,,2662309,7941285,4781456,35,ok,,

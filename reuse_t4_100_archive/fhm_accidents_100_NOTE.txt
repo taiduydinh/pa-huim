@@ -1,0 +1,4 @@
+FHM Accidents scalability 100% excluded.
+Reason: preceding 80% scalability case reached the 36-hour timeout.
+According to the sequential scalability protocol, larger fractions after a timeout are excluded.
+Date: 2026-10-03T08:01:17+00:00

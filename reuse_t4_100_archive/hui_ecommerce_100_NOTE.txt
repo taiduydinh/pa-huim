@@ -1,0 +1,7 @@
+Cancelled because this run is exactly equivalent to:
+HUI-Miner Ecommerce normal T4
+minUtil = 180000
+full dataset = 14975 transactions
+
+The older normal T4 execution was retained.
+Cancellation date: 2026-10-02T16:15:00+00:00

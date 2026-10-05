@@ -1,0 +1,6 @@
+experiment,algorithm,dataset,file,algorithm_file,threshold_index,size_fraction,max_transactions,min_utility,central_percentage,threshold_mode,runtime_ms,baseline_memory_mb,peak_memory_mb,delta_memory_mb,algorithm_internal_memory_mb,pattern_count,output_pattern_lines,candidate_count,case1_count,case2_count,read_transactions,read_total_utility,read_entries,read_unique_items,status,error,stderr_tail
+scalability,fhm,retail,/work/datasets/retail.txt,/work/fhm.py,,0.20,17632,3700,0.02,absolute,72207.992,16.582,85.973,69.391,85.97265625,395,395,35822,,,17632,2957955,179189,9912,ok,,
+scalability,fhm,retail,/work/datasets/retail.txt,/work/fhm.py,,0.40,35265,3700,0.02,absolute,390152.99,16.73,176.984,160.254,176.984375,1326,1326,198097,,,35265,5938282,362292,12707,ok,,
+scalability,fhm,retail,/work/datasets/retail.txt,/work/fhm.py,,0.60,52897,3700,0.02,absolute,780922.478,16.59,260.754,244.164,260.75390625,2167,2167,493245,,,52897,8870000,540932,14559,ok,,
+scalability,fhm,retail,/work/datasets/retail.txt,/work/fhm.py,,0.80,70530,3700,0.02,absolute,1263624.564,16.715,340.238,323.523,340.23828125,3235,3235,980149,,,70530,11742565,716674,15496,ok,,
+scalability,fhm,retail,/work/datasets/retail.txt,/work/fhm.py,,1.00,88162,3700,0.02,absolute,2022041.13,16.777,425.906,409.129,425.90625,5191,5191,1982316,,,88162,14910915,908576,16470,ok,,

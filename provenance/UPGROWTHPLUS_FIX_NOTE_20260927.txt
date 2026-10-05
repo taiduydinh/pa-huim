@@ -1,0 +1,22 @@
+UP-Growth+ correctness fix
+
+Problem:
+The original update_exact_utility() could accumulate partial transaction
+utility even when the complete candidate itemset was not contained in a
+transaction.
+
+Observed Foodmart mismatches before fix:
+T6  546 vs 550
+T5  769 vs 781
+T4  1903 vs 1947
+T3  6309 vs 6610
+T2  40485 vs 46665
+T1  85034 vs 100723
+
+Correction:
+Reimplemented exact-utility verification so utility is accumulated only
+when every item of the candidate itemset occurs in the transaction.
+
+Validation after correction:
+Foodmart T10-T1: 10/10 exact matches with PA-HUIM.
+Mismatches: 0.

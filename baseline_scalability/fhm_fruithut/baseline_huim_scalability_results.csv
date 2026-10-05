@@ -1,0 +1,6 @@
+experiment,algorithm,dataset,file,algorithm_file,threshold_index,size_fraction,max_transactions,min_utility,central_percentage,threshold_mode,runtime_ms,baseline_memory_mb,peak_memory_mb,delta_memory_mb,algorithm_internal_memory_mb,pattern_count,output_pattern_lines,candidate_count,case1_count,case2_count,read_transactions,read_total_utility,read_entries,read_unique_items,status,error,stderr_tail
+scalability,fhm,fruithut,/work/datasets/fruithut.txt,/work/fhm.py,,0.20,36394,52000,0.02,absolute,11866.897,16.539,37.363,20.824,37.36328125,875,875,45734,,,36394,40631486,106371,792,ok,,
+scalability,fhm,fruithut,/work/datasets/fruithut.txt,/work/fhm.py,,0.40,72788,52000,0.02,absolute,49267.945,16.648,61.238,44.59,61.23828125,2708,2708,165590,,,72788,86120775,224509,1021,ok,,
+scalability,fhm,fruithut,/work/datasets/fruithut.txt,/work/fhm.py,,0.60,109182,52000,0.02,absolute,127586.939,16.535,88.078,71.543,88.078125,7138,7138,470325,,,109182,142112713,359717,1163,ok,,
+scalability,fhm,fruithut,/work/datasets/fruithut.txt,/work/fhm.py,,0.80,145576,52000,0.02,absolute,246156.42,16.539,116.062,99.523,116.0625,14819,14819,960329,,,145576,200879814,503399,1230,ok,,
+scalability,fhm,fruithut,/work/datasets/fruithut.txt,/work/fhm.py,,1.00,181970,52000,0.02,absolute,408653.785,16.609,145.711,129.102,145.7109375,26681,26681,1642451,,,181970,261871526,652773,1265,ok,,

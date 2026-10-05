@@ -1,0 +1,13 @@
+{
+  "case_id": "up_accidents_T1",
+  "algorithm": "upgrowthplus",
+  "dataset": "accidents",
+  "min_utility": 21000000,
+  "max_transactions": null,
+  "result": {
+    "status": "error",
+    "returncode": -15,
+    "stdout": "",
+    "stderr": ""
+  }
+}

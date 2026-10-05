@@ -1,0 +1,5 @@
+dataset,file,transaction_count,total_utility,entry_count,unique_item_count,central_percentage,central_min_utility
+foodmart,foodmart.txt,4141,12011023,18319,1559,0.1,7000
+ecommerce,ecommerce.txt,14975,497013754,174354,3468,0.03,180000
+retail,retail.txt,88162,14910915,908576,16470,0.02,3700
+fruithut,fruithut.txt,181970,261871526,652773,1265,0.02,52000

@@ -1,0 +1,12 @@
+experiment,algorithm,dataset,file,algorithm_file,threshold_index,size_fraction,max_transactions,min_utility,central_percentage,threshold_mode,runtime_ms,baseline_memory_mb,peak_memory_mb,delta_memory_mb,algorithm_internal_memory_mb,pattern_count,output_pattern_lines,candidate_count,case1_count,case2_count,read_transactions,read_total_utility,read_entries,read_unique_items,status,error,stderr_tail
+scalability,ulb_miner,foodmart,/work/datasets/foodmart.txt,/work/ulb_miner.py,,0.20,828,7000,0.1,absolute,62.199,16.539,19.297,2.758,-1.0,24,24,250,,,828,2379808,3770,1414,ok,,
+scalability,ulb_miner,foodmart,/work/datasets/foodmart.txt,/work/ulb_miner.py,,0.40,1656,7000,0.1,absolute,364.618,16.719,21.996,5.277,-1.0,420,420,2337,,,1656,4740690,7278,1545,ok,,
+scalability,ulb_miner,foodmart,/work/datasets/foodmart.txt,/work/ulb_miner.py,,0.60,2485,7000,0.1,absolute,472.23,16.602,24.199,7.598,-1.0,674,674,3356,,,2485,7162418,10978,1558,ok,,
+scalability,ulb_miner,foodmart,/work/datasets/foodmart.txt,/work/ulb_miner.py,,0.80,3313,7000,0.1,absolute,532.872,16.602,26.645,10.043,-1.0,1639,1639,8458,,,3313,9612721,14663,1559,ok,,
+scalability,ulb_miner,foodmart,/work/datasets/foodmart.txt,/work/ulb_miner.py,,1.00,4141,7000,0.1,absolute,578.832,16.758,28.609,11.852,-1.0,1903,1903,8745,,,4141,12011023,18319,1559,ok,,
+scalability,ulb_miner,ecommerce,/work/datasets/ecommerce.txt,/work/ulb_miner.py,,0.20,2995,180000,0.03,absolute,497264.089,16.699,41.113,24.414,-1.0,35646831,35646831,90547823,,,2995,89491229,33810,2474,ok,,
+scalability,ulb_miner,ecommerce,/work/datasets/ecommerce.txt,/work/ulb_miner.py,,0.40,5990,180000,0.03,absolute,3771500.734,16.711,66.293,49.582,-1.0,369792026,369792026,606181200,,,5990,186130345,68405,2880,ok,,
+scalability,ulb_miner,ecommerce,/work/datasets/ecommerce.txt,/work/ulb_miner.py,,0.60,8985,180000,0.03,absolute,12180169.041,16.594,89.074,72.48,-1.0,1300521063,1300521063,1919580676,,,8985,284796399,103638,3146,ok,,
+scalability,ulb_miner,ecommerce,/work/datasets/ecommerce.txt,/work/ulb_miner.py,,0.80,11980,180000,0.03,absolute,14043289.254,16.645,114.156,97.512,-1.0,1470619864,1470619864,2160907999,,,11980,398826273,139996,3400,ok,,
+scalability,ulb_miner,ecommerce,/work/datasets/ecommerce.txt,/work/ulb_miner.py,,1.00,14975,180000,0.03,absolute,18840573.234,16.539,137.48,120.941,-1.0,2069486320,2069486320,2919521828,,,14975,497013754,174354,3468,ok,,
+scalability,ulb_miner,retail,/work/datasets/retail.txt,/work/ulb_miner.py,,0.20,17632,3700,0.02,absolute,,,,,,,,,,,,,,,error,Worker produced no output.,

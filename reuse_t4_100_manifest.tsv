@@ -1,0 +1,5 @@
+algorithm	dataset	scalability_100_reuses	source	reason
+efim	ecommerce	yes	/work/baseline_huim_results/baseline_huim_threshold_results.csv	T4 minUtil=180000 equals full-dataset 100%
+fhm	ecommerce	yes	/work/baseline_huim_results/baseline_huim_threshold_results.csv	T4 minUtil=180000 equals full-dataset 100%
+hui_miner	ecommerce	yes	/work/first8_batch/results/hui_ecommerce_T4.json	Use when T4 completes successfully
+upgrowthplus	chainstore	yes	/work/first8_batch/results/up_chainstore_T4.json	T4 and 100% already independently confirmed identical

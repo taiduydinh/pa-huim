@@ -1,0 +1,11 @@
+{
+  "case_id": "up_fruithut_T1",
+  "algorithm": "upgrowthplus",
+  "dataset": "fruithut",
+  "min_utility": 13000,
+  "max_transactions": null,
+  "result": {
+    "status": "timeout",
+    "timeout_seconds": 129600
+  }
+}

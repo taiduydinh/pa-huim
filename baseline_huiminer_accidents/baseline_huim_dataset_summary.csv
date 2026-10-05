@@ -1,0 +1,2 @@
+dataset,file,transaction_count,total_utility,entry_count,unique_item_count,central_percentage,central_min_utility
+accidents,accidents.txt,340183,196141636,11500870,468,1.0,24000000

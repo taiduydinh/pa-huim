@@ -1,0 +1,13 @@
+{
+  "case_id": "up_ecommerce_40",
+  "algorithm": "upgrowthplus",
+  "dataset": "ecommerce",
+  "min_utility": 180000,
+  "max_transactions": 5990,
+  "result": {
+    "status": "error",
+    "returncode": -9,
+    "stdout": "",
+    "stderr": ""
+  }
+}

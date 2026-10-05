@@ -1,0 +1,2 @@
+dataset,file,transaction_count,total_utility,entry_count,unique_item_count,central_percentage,central_min_utility
+chainstore,chainstore.txt,1112949,2609973588,8042879,46086,0.005,130000
