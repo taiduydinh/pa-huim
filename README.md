@@ -219,6 +219,13 @@ See [DATASETS.md](DATASETS.md) for dataset statistics, checksums, input format, 
 
 ## Citation
 
-If you use this code or experimental package, please cite the accompanying paper:
+If you use this code or experimental package, please cite the accompanying paper. The manuscript has been submitted to the **14th International Conference on Big Data Analytics in Astronomy, Science and Engineering (BDA 2026)**.
 
-**Tai Dinh. “PA-HUIM: A Pure-Array Projected Algorithm for Efficient High-Utility Itemset Mining.”**
+```bibtex
+@unpublished{dinh2026pahuim,
+  author = {Tai Dinh},
+  title = {PA-HUIM: A Pure-Array Projected Algorithm for Efficient High-Utility Itemset Mining},
+  note = {Submitted to the 14th International Conference on Big Data Analytics in Astronomy, Science and Engineering (BDA 2026)},
+  year = {2026}
+}
+```
