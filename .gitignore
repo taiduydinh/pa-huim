@@ -2,6 +2,8 @@ __pycache__/
 *.pyc
 *.pyo
 *.log
-data_rebuilt/
+experimental_results/rebuilt/
+experimental_results/reproduced_pa_huim/
+experimental_results/reproduced_baselines/
 .DS_Store
 Thumbs.db

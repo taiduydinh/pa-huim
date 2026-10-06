@@ -15,7 +15,7 @@ This directory contains the eight utility-transaction datasets used in the final
 | Chainstore | `chainstore.txt` | 1,112,949 | 46,086 | 8,042,879 | 7.23 | 2,609,973,588 | 79.20 MiB |
 | Chicago Crimes | `chicago_crimes.txt` | 2,662,309 | 35 | 4,781,456 | 1.80 | 7,941,285 | 27.80 MiB |
 
-The statistics above are the values used in the final manuscript and are also stored in `data/dataset_stats.csv`.
+The statistics above are the values used in the final manuscript and are also stored in `experimental_results/dataset_stats.csv`.
 
 ## Input format
 
